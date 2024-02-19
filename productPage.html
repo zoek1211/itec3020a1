@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Product Page</title>
+        <link rel="stylesheet" type="text/css" href="productPage.css"> 
+    </head>
+
+    <body>
+        <header>
+            <div class="container">
+                <section class="topNav">
+                    <img src="logo.png" alt="Logo image" width="200px" height="200px">
+                    <div class="navigation">
+                        <h1>PurrShop</h1>
+                <nav>
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Products</a></li>
+                        <li><a href="">Contacts</a></li>
+                    </ul>
+                </nav>
+                <form class="search" action="" method="get">
+                    <input type="text" name="search" placeholder="Search for items">
+                    <button type="submit">Search</button>
+                </form>
+                    </div>
+                </section>
+            </div>
+        </header>
+        
+        <main>
+            <div class="container">
+                <section class="product">
+                    <img src="FlowerCatTree.jpg" alt="Flower cat tree image" width="500" height="600">
+                    <div class="productInfo">
+                        <h2>Flower Cat Tree</h2>
+                        <p>Our Fower Cat Tree combines a playful style of a garden of bright colors, flowers, and bees to fit any home décor.</p>
+                        <ul>
+                            <li>Natural Sisal Scratching Post</li>
+                            <li>Plush Perches, Hammock and Flower Condo</li>
+                            <li>Playful garden design to being color to any home and décor</li>
+                        </ul>
+                        <div class="options">
+                            <label for="color">Color:</label>
+                            <select id="color">
+                                <option value="red">Red</option>
+                                <option value="blue">Blue</option>
+                            </select>
+                            <label for="size">Size:</label>
+                            <select id="size">
+                                <option value="medium">Medium</option>
+                                <option value="large">Large</option>
+                            </select>
+                        </div>
+                        <button>Add to Cart</button>
+                        <button>View Cart</button>
+                    </div>
+                </section>                          
+            </div>
+
+            <div class="container">
+                <section class="similarProducts">
+                    <h2>Similar Products</h2>
+                    <div class="productGrid">
+                        <div class="similarProduct">
+                            <div class="productName">
+                                <a href="">Cactus Cat Tree</a>
+                            </div>          
+                            <a href=""><img src="CactusCatTree.png" alt="Cactus cat tree image" width="300" height="400"></a>  
+                        </div>
+                        <div class="similarProduct">
+                            <div class="productName">
+                                <a href="">Cloud Cat Tree</a>
+                            </div>    
+                            <a href=""><img src="CloudCatTree.jpg" alt="Cloud cat tree image" width="300" height="400"></a> 
+                        </div>
+                        <div class="similarProduct">
+                            <div class="productName">
+                                <a href="">Heart Cat Tree</a>
+                            </div>    
+                            <a href=""><img src="HeartCatTree.jpg" alt="Heart cat tree image" width="300" height="400"></a>     
+                        </div>
+                    </div>                   
+                </section> 
+            </div>
+        </main>
+
+        <footer>
+            <div class="container">
+                <p>&copy; PurrShop. All rights reserved.</p>
+            </div>
+        </footer>
+    </body>
+
+</html>
